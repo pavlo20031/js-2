@@ -18,7 +18,7 @@ console.log(energy - 69);
 // Shop
 const totalPrice = 100;
 const discount = 10;
-const discountPrice = totalPrice / totalPrice * discount;
+const discountPrice = totalPrice / totalPrice * 90;
 console.log(discountPrice);
 
 // Floating
