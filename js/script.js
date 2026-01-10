@@ -22,6 +22,12 @@ const discount = 10;
 const discountPrice = totalPrice - (totalPrice * (discount / 100));
 console.log(discountPrice);
 
+// Floor
+const floatNumber = 12.78;
+const roundedDown = Math.floor(floatNumber);
+console.log(roundedDown);
+
+
 // Floating
 const floatString = "45.67";
 const parsedFloat = parseFloat(floatString);
@@ -31,6 +37,11 @@ console.log(parsedFloat);
 const intString = "123";
 const parsedInt = parseInt(intString);
 console.log(parsedInt);
+
+// SQRT
+const number = 49;
+const sqrtNumber = Math.sqrt(number);
+console.log(sqrtNumber);
 
 // Converted
 const integer = 42;
