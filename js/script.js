@@ -10,15 +10,17 @@ const minutesInMonth = hoursInMonth * 60;
 console.log(daysInMonth, hoursInMonth, minutesInMonth);
 
 // Game
-const health = 125;
-const energy = 100;
-console.log(health - 67);
-console.log(energy - 69);
+let health = 125;
+let energy = 100;
+health -= 67;
+energy -= 69
+console.log(health, energy)
 
 // Shop
-const totalPrice = 100;
+let totalPrice = 100;
 const discount = 10;
-const discountPrice = totalPrice / totalPrice * 90;
+totalPrice -= discount
+const discountPrice = totalPrice;
 console.log(discountPrice);
 
 // Floating
