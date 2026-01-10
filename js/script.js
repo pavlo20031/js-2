@@ -1,6 +1,6 @@
 // Temperature
 const celsius = 20;
-const fahrenheit = (20 * 9 / 5) + 32;
+const fahrenheit = (celsius * 9 / 5) + 32;
 console.log(fahrenheit);
 
 // Month
@@ -19,8 +19,7 @@ console.log(health, energy)
 // Shop
 let totalPrice = 100;
 const discount = 10;
-totalPrice -= discount
-const discountPrice = totalPrice;
+const discountPrice = totalPrice - (totalPrice * (discount / 100));
 console.log(discountPrice);
 
 // Floating
